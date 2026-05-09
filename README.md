@@ -88,16 +88,9 @@ MAPE	~45%
 These results were obtained on limited consumer hardware. The model captures general trends in dense crowds (>100 people) but struggles with very small groups (1–5 people) and complex textured backgrounds.
 
 Project Structure
-text
 crowd-density-counter/
 ├── README.md
-├── requirements.txt
-├── crowd_counting.ipynb          # Main Colab notebook
-├── model.py                      # Model architecture & custom losses
-├── utils.py                      # Data loading & generator
-├── inference.py                  # Standalone inference script
-└── assets/
-    └── sample_predictions.png
+├── crowd-density-counter.ipynb        # Main Colab notebook
 Known Limitations
 Small groups: Systematic errors on scenes with 1–5 people (missed detections or false positives).
 
